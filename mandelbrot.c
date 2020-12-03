@@ -369,6 +369,7 @@ main (int    argc,
   mpfr_clear(height);
   mpfr_clear(dx);
   mpfr_clear(dy);
+  mpfr_clear(temp);
   mpfr_free_cache();
 
   return status;
