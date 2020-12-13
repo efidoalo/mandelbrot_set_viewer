@@ -307,12 +307,12 @@ void compute_mandelbrot_set(mpfr_t x,
       //mpfr_printf("%.0Rf\n", uniform_pixel_val);
       if (j==0)
         fprintf(fp, "\n%u %u %u", red_byte, 
-			                        blue_byte,
-			                        green_byte);
+			          green_byte,
+			          blue_byte);
       else
 	fprintf(fp, " %u %u %u", red_byte, 
-	  		                  blue_byte,
-			                  green_byte);
+	  		         green_byte,
+			         blue_byte);
     }
   }
   
