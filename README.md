@@ -6,7 +6,7 @@ precision when calculating points in (and out of) the set. The MPFR library can
 be downloaded here https://www.mpfr.org/.
 
 Compile with: 
-gcc -c -I/home/andy/Documents/projects/mandelbrot/gmp-6.2.1 `pkg-config --cflags gtk+-3.0` mandelbrot.c .
+gcc -c -I/home/andy/Documents/projects/mandelbrot/gmp-6.2.1 `'pkg-config --cflags gtk+-3.0'` mandelbrot.c .
 Link with:
-gcc mandelbrot.o -o mandelbrot `pkg-config --libs gtk+-3.0` -lm -lmpfr . Where the -I compiler option specifies where to look for the gmp heder (<gmp.h>). The mpfr lirbary is based on the gnu multiple precision (gmp) library.
+gcc mandelbrot.o -o mandelbrot `'pkg-config --libs gtk+-3.0'` -lm -lmpfr . Where the -I compiler option specifies where to look for the gmp heder (<gmp.h>). The mpfr lirbary is based on the gnu multiple precision (gmp) library.
    
