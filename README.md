@@ -5,8 +5,8 @@ precision floating numbers with accurate roumdimg (mpfr) library for additional
 precision when calculating points in (and out of) the set. The MPFR library can 
 be downloaded here https://www.mpfr.org/.
 
-Compile with:
-  gcc -c -I/home/andy/Documents/projects/mandelbrot/gmp-6.2.1 `pkg-config --cflags gtk+-3.0` mandelbrot.c
+Compile with: 
+gcc -c -I/home/andy/Documents/projects/mandelbrot/gmp-6.2.1 `pkg-config --cflags gtk+-3.0` mandelbrot.c .
 Link with:
-  gcc mandelbrot.o -o mandelbrot `pkg-config --libs gtk+-3.0` -lm -lmpfr
+gcc mandelbrot.o -o mandelbrot `pkg-config --libs gtk+-3.0` -lm -lmpfr
    
